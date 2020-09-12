@@ -62,10 +62,14 @@ int main() {
   L1.InsertBack(8);
   L1.InsertBack(3);
   L1.InsertBack(1);
+  cout<<"First ";
+  L1.Print();
+
   List L2;
   L2.InsertBack(1);
   L2.InsertBack(6);
-
+  cout<<"Second ";
+  L2.Print();
   // Line A
 
   L1.Append(L2);
